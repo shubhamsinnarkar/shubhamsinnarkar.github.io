@@ -82,12 +82,13 @@ ul li{
 
 .fh5co-social-icons li {
   display: inline-block;  
-  font-size: 38px;
- margin:10px;
- margin-left:auto ;
+  font-size: 35px;
+  margin: -200px;
+  justify-content: center;
+  margin-left: 325px;
   color: #000000;
+  margin-top: 10px;
   
-
 }
 
 
