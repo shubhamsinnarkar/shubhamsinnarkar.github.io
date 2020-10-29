@@ -1,96 +1,131 @@
-<html>
-<head>
-        <meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <meta name='viewport' content='width=device-width, initial-scale=1'>
-<script src='https://kit.fontawesome.com/a076d05399.js'></script>
-        <link rel="stylesheet" href="shubham.css">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
-        <link rel="stylesheet" href="https://fontawesome.com/v3.2.1/icon/">  
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-        <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
-    
-    <!-- Animate.css -->
-    <link rel="stylesheet" href="css/animate.css">
-    <!-- Icomoon Icon Fonts-->
-    <link rel="stylesheet" href="css/icomoon.css">
-    <!-- Bootstrap  -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-
-    <!-- Theme style  -->
-    <link rel="stylesheet" href="css/style.css">
 
 
-    <title>
-        Shubham Sinnarkar
-    </title>
-</head>
+
+.top{
+	width: 50%;
+  height: 50%;
+ 
+}
+
+img{
+	width: 48%;
+	height: 60%;
+	display: flex;
+	justify-content: center;
+	margin-left: 55%;
+  margin-top: 50px;
+
+}
+
+.animate {
+    height: 100%;
+    width: 100%;
+    border: 1px solid #000;
+    -webkit-animation: animate_bg 7s;
+    animation: animate_bg 7s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate_bg {
+    0%   {background:pink;}
+    33%  {background:#B0C4DE;}
+    66%  {background:#FF7F50;}	
+    100% {background:#6495ED;}
+}
+
+@-webkit-keyframes animate_bg {
+    0%   {background:red;}
+    33%  {background:green;}
+    66%  {background:#FF7F50;}
+    100% {background:blue;}
+}
+
+.name h3{
+	font-family:Rockwell;
+	float: none;
+	margin-left:23%;
+  margin-top: -15%;
+
+}
+
+.name p{
+  font-family:Rockwell;
+  float: none;
+  margin-left: 10%;
+  }
+
+.header nav{
+  background-color: white;
+  border: 1px solid #ddd;
+  border-bottom: none;
+  border-top: 3px solid #9d9d9d;
+  text-overflow: ellipsis;
+  max-width: 10em;
+  overflow: hidden;
+  display: block;
+  display: inline;
+  margin-top: 10px;
+}
 
 
-<body>
-<header>
-
-    <div class ="header">
-        <style>
-            ul li{
-            font-family:Rockwell;
-            font-size: large;
 
 
-                    }</style>
-    <nav>
-    <ul>
-         <li><a href = "Shubham's website.html">Home</a></li>
-        <li><a href = "Coursework.html">Curriculum</a></li>
-        <li><a href = "Services2.html" >Projects</a></li>
-        <li><a href = "#product">Coursework</a></li>
-        <li><a href = "Gallery2.html">Achievements</a></li>
-        <li><a href = "Gallery2.html">Resume</a></li>
-       
-    </ul>
-</div>
-    <div class="animate">
-</nav>
-    <div class="top">
-        <img src="circle-cropped.png" alt="Shubham">
+ul li{
+	   display: block;
+    list-style: none;
+    display: inline;
+    padding-right: 5px;
+    margin-left: 100px;
+    margin-top: 10px;
 
-    </div>
-    <div class="name">
-        <style>
-            h3{
-            font-family:Rockwell;
+}
+.fh5co-social-icons ul{
+  padding:0px;
+}
 
-                    }
-        </style>
-        <h3>Shubham Sinnarkar</h3>
-        <p><small> Major in Database Management System and Artificial Intelligence </small> </p>
+.fh5co-social-icons li {
+  display: inline-block; 
+  list-style: outside none none; 
+  width: auto;
+  font-size: 35px;
+  *display: inline;  
+  color: #000000; 
+  margin-left: 49px;
+}
 
-    
 
-    <ul class="fh5co-social-icons">
-        <li>
-            <a href="https://www.linkedin.com/in/shubham-sinnarkar/" target="_blank"><i class="fab fa-linkedin-in"></i>
-                
-                </a></li>
-        <li>
-            <a href="mailto:shubhamsanjay.sinnarkar@mavs.uta.edu" target="_blank">
-                <i class="fas fa-envelope-square"></i></i>
-            </a></li>
-        <li>
-            <a href="tel:206-483-9758" target="_blank">
-            <i class="fas fa-phone"></i></i></a>
-        </li>
-        <li>
-            <a href="https://github.com/shubhamsinnarkar" target="_blank">
-                <i class="fab fa-github"></i>
-            </a>
-        </li></ul>
-    </div>
+.Aboutme h1{
+  clear:both;
+  font-family:Rockwell;
+  text-align: center;
+  margin-top: 35px;
+  }
 
-</div>
-    </footer>
-</body>
-</html>
+.Aboutme p{
+  font-family:Rockwell;
+  text-align: center;
+  word-spacing: 2px;
+  margin-right: 14px;
+}
+
+#col-1 {
+  position: fixed;
+  width: 50%;
+  left: 0;
+  height: 100%;
+  
+  z-index: 1010101010
+}
+
+#col-2 {
+  position: fixed;
+  width: 50%;
+  left: 50%;
+  height: 100%;
+  
+  z-index: 1010101010
+}
+
+
+
