@@ -8,12 +8,13 @@
 }
 
 img{
-	width: 40%;
+	width: 48%;
 	height: 60%;
 	display: flex;
 	justify-content: center;
-	margin-left: 80%;
-	margin-top: 50px;	
+	margin-left: 55%;
+  margin-top: 50px;
+
 }
 
 .animate {
@@ -43,14 +44,15 @@ img{
 .name h3{
 	font-family:Rockwell;
 	float: none;
-	margin-left: 41.5%;
-	margin-top: -8.5%;
+	margin-left:23%;
+  margin-top: -15%;
+
 }
 
 .name p{
   font-family:Rockwell;
   float: none;
-  margin-left: 37%;
+  margin-left: 10%;
   }
 
 .header nav{
@@ -78,20 +80,52 @@ ul li{
     margin-top: 10px;
 
 }
-
+.fh5co-social-icons ul{
+  padding:0px;
+}
 
 .fh5co-social-icons li {
-  display: inline-block;  
+  display: inline-block; 
+  list-style: outside none none; 
+  width: auto;
   font-size: 35px;
-  margin: -200px;
-  justify-content: center;
-  margin-left: 325px;
-  color: #000000;
-  margin-top: 10px;
-  
+  *display: inline;  
+  color: #000000; 
+  margin-left: 49px;
 }
 
 
+.Aboutme h1{
+  clear:both;
+  font-family:Rockwell;
+  text-align: center;
+  margin-top: 35px;
+  }
+
+.Aboutme p{
+  font-family:Rockwell;
+  text-align: center;
+  word-spacing: 2px;
+  margin-right: 14px;
+}
+
+#col-1 {
+  position: fixed;
+  width: 50%;
+  left: 0;
+  height: 100%;
+  
+  z-index: 1010101010
+}
+
+#col-2 {
+  position: fixed;
+  width: 50%;
+  left: 50%;
+  height: 100%;
+  
+  z-index: 1010101010
+}
 
 
 
